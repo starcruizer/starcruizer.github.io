@@ -3,7 +3,7 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading" style="text-align: center; margin-bottom: 30px">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -22,11 +22,35 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+       
+        {% if site.facebook_username %}
+          <a href="https://facebook.com/shakebameen">
+            <i class="fa fa-facebook-square fa-2x"></i>
+          </a>
+        {% endif %}
+        
+        {% if site.twitter_username %}
+            <a href="https://twitter.com/shakebameen">
+              <i class="fa fa-twitter-square fa-2x"></i>
+            </a>
+        {% endif %}
+
+        {% if site.instagram_username %}
+            <a href="https://instagram.com/shakebameen">
+              <i class="fa fa-instagram fa-2x"></i>
+            </a>
+        {% endif %}
+
+        {% if site.reddit_username %}
+            <a href="https://reddit.com/u/shakebameen">
+              <i class="fa fa-reddit fa-2x"></i>
+            </a>
+        {% endif %}
+
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p></p>
       </div>
     </div>
 
