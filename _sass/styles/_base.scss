@@ -166,16 +166,16 @@ pre {
  */
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  max-width:  calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
   @extend %clearfix;
 
-  @media screen and (min-width: $on-large) {
+  @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:  calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
@@ -198,9 +198,6 @@ pre {
  * Icons
  */
 
- .orange {
-   color: $orange-color;
- }
 
  .grey {
    color: $grey-color;
@@ -221,14 +218,12 @@ pre {
   }
 }
 
-
 /**
  * Tables
  */
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
-  text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;

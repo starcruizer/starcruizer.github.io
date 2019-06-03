@@ -18,14 +18,12 @@ $brand-color:      #36caf6;
 $grey-color:       #828282 ;
 $grey-color-light: lighten($grey-color, 40%) ;
 $grey-color-dark:  darken($grey-color, 25%) ;
-$orange-color:     #f66a0a ;
-$table-text-align: left ;
 
 // Width of the content area
-$content-width:    800px ;
+$content-width:    900px ;
 
 $on-palm:          600px ;
-$on-laptop:        800px ;
+$on-laptop:        900px ;
 
 $on-medium:        $on-palm ;
 $on-large:         $on-laptop ;
@@ -53,7 +51,25 @@ h1, h2, h3, h4, h5, h6, .site-title {
   font-size: $base-font-size * $ratio;
 }
 
-// Import partials.
+footer {
+	text-align: center;
+}
+
+.blue{
+	color: #36caf6
+}
+
+.read-more{
+	font-family: $title-font-family;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	padding: 4px 16px;
+	border: 2px solid $brand-color;
+	border-radius: 32px;
+}
+
+// Import partials from 'sass_dir'
 @import
   "styles/base",
   "styles/layout",

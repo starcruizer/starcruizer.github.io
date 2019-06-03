@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "init Blog"
+title:  "Blog.init()"
 date:   2012-05-19 10:41:55 +0530
 categories: myself
 ---
