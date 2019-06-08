@@ -1,33 +1,40 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
+  <div class="wrapper footer">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading" style=" margin-bottom: 30px">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+      <div>
+       
+        {% if site.facebook_username %}
+          <a href="https://facebook.com/shakebameen">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+        {% endif %}
+        
+        {% if site.twitter_username %}
+            <a href="https://twitter.com/shakebameen">
+              <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+        {% endif %}
+
+        {% if site.instagram_username %}
+            <a href="https://instagram.com/shakebameen">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+        {% endif %}
+
+        {% if site.reddit_username %}
+            <a href="https://reddit.com/u/shakebameen">
+              <i class="fab fa-reddit fa-2x"></i>
+            </a>
+        {% endif %}       
+        <div style="margin-top: 30px">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+        </div>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
     </div>
 
   </div>
