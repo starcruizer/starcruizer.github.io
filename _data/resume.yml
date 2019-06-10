@@ -1,37 +1,37 @@
-headline:      'Software Developer / IoT Engineer / Designer'
+headline:       'Software Developer / IoT Engineer / Designer'
 social_links:
-- icon:        fa-globe
-  name:        Website
-  url:         http://www.shakebameen.com
-- icon:        fa-linkedin
-  name:        LinkedIn
-  url:         https://www.linkedin.com/in/shakebameen/
-- icon:        fa-github
-  name:        Github
-  url:         https://github.com/starcruizer
-- icon:        fa-twitter
-  name:        Twitter
-  url:         https://twitter.com/shakebameen
+- icon:         fa-globe
+  name:         Website
+  url:          http://www.shakebameen.com
+- icon:         fa-linkedin
+  name:         LinkedIn
+  url:          https://www.linkedin.com/in/shakebameen/
+- icon:         fa-github
+  name:         Github
+  url:          https://github.com/starcruizer
+- icon:         fa-twitter
+  name:         Twitter
+  url:          https://twitter.com/shakebameen
 meta:
-  email:       'me@shakebameen.com'
+  email:        'me@shakebameen.com'
   phone:
     - '(+91) 7033 622 361'
     - '(+886) 0937 040 327'
 sections:
-  - name:      Experience
-    key:       experiences
-    info:      >
+  - name:       Experience
+    key:        experiences
+    info:       >
       In addition to the mentioned experience, I have also been working on personal
       projects since 2016.
-  - name:      Education
-    key:       education
-  - name:      'Awards &amp; Achievements'
-    key:       awards
+  - name:       Education
+    key:        education
+  - name:       'Awards &amp; Achievements'
+    key:        awards
 experiences:
-  - timeline:  Jan 18 &mdash; Present
-    name:      '<a href="https://sqrinfotech.com/">SQR Infotech Pvt Ltd</a>'
-    pos:       IoT Intern
-    intro:     >
+  - timeline:   Jan 18 &mdash; Present
+    name:       '<a href="https://sqrinfotech.com/">SQR Infotech Pvt Ltd</a>'
+    pos:        IoT Intern
+    intro:      >
       Currently working on Bluetooth 5 based <em>smart communication - Indoor
       positioning system</em>. As the hardware solutions leader, my day to day task include
       devising new solutions using full embedded life cycle, providing clients with full
@@ -43,10 +43,10 @@ experiences:
       - Google Cloud IoT
       - Android Things
       - Java
-  - timeline:  Oct 18 &mdash; Dec 18
-    name:      '<a href="https://yups.asia/">YUPS ASIA</a>'
-    pos:       IoT Trainee
-    intro:     >
+  - timeline:   Oct 18 &mdash; Dec 18
+    name:       '<a href="https://yups.asia/">YUPS ASIA</a>'
+    pos:        IoT Trainee
+    intro:      >
       Learned new technologies for devising smart city solutions using Bluetooth 5.
       Made Smart LoRa and BLE5 confluence based <em>IoT Gateway for Smart
       Communications</em>. Learned new technologies for devising smart city solutions using Bluetooth 5.
@@ -59,10 +59,10 @@ experiences:
       - Lora
       - PHP
       - Python
-  - timeline:  Sep 17 &mdash; Sep 18
-    name:      '<a href="https://kiit.ac.in/">IoT R&D Lab</a>'
-    pos:       Junior Research Fellow
-    intro:     >
+  - timeline:   Sep 17 &mdash; Sep 18
+    name:       '<a href="https://kiit.ac.in/">IoT R&D Lab</a>'
+    pos:        Junior Research Fellow
+    intro:      >
       Worked on MQTT based novel approach for air quality monitoring and real time
       weather analysis with alert facility for residents. Made a <em>Smart Floor warning
       system</em> based on <em>Smart Mesh</em> networking for Hydro Power stations and dams.
@@ -74,33 +74,96 @@ experiences:
       - Azure IoT
       - Python
 education:
-   - timeline: 'Feb 19 &mdash; June 19'
-     name:     '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a>'
-     major:    'Exchange Student <em>in</em> Semester Abroad Programme'
-   - timeline: '2016 &mdash; 2018'
-     name:     '<a href="https://kiit.ac.in">KIIT University, India (7.9/10)</a>'
-     major:    'Bachelor of Technology <em>in</em> Information Technology'
+   - timeline:  'Feb 19 &mdash; June 19'
+     name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a>'
+     major:     'Exchange Student <em>in</em> Semester Abroad Programme'
+   - timeline:  '2016 &mdash; 2018'
+     name:      '<a href="https://kiit.ac.in">KIIT University, India (7.9/10)</a>'
+     major:     'Bachelor of Technology <em>in</em> Information Technology'
 awards:
-  - timeline:  Nov 2018
-    name:      'Smart Odisha Hackathon, Govt. of India'
-    pos:       'National Winner'
-    intro:     >
+  - timeline:   Nov 2018
+    name:       'Smart Odisha Hackathon, Govt. of India'
+    pos:        'National Winner'
+    intro:      >
       Won the National Prize in <em>Open Innovation challenge for smart technologies</em>, at the Smart Odisha
       Hackathon 2018 by Make in Odisha Conclave, Govt. of India.
-  - timeline:  Oct 2018
-    name:      'TATA Crucible Corporate Hackathon'
-    pos:       Grand Prize Winner
-    intro:     >
+  - timeline:   Oct 2018
+    name:       'TATA Crucible Corporate Hackathon'
+    pos:        Grand Prize Winner
+    intro:      >
       Developed a winning solution for the <em>Smart City Enabler challenge</em> - <em>CityX </em>a IoT platform for
       the new age problems of Smart Cities using custom IoT gateway.
-  - timeline:  July 2018
-    name:      'Smart India Hackathon Hardware Edition'
-    pos:       National Finalist
-    intro:     >
+  - timeline:   July 2018
+    name:       'Smart India Hackathon Hardware Edition'
+    pos:        National Finalist
+    intro:      >
       Developed and pitched a <em>Smart Mesh</em> based Smart Communication for Flood Warning at World's
       Biggest Open Innovation Movement in India.
-  - timeline:  Dec 2017
-    name:      'Makeovation'
-    pos:       Runner Up
-    intro:     >
+  - timeline:   Dec 2017
+    name:       'Makeovation'
+    pos:        Runner Up
+    intro:      >
       Developed and pitched a <em>Smart Air Quality Index</em> device for Smart Homes and industries.
+personal:
+  - name:       'Personal Information'
+    key:        personal_info
+  - name:       'Skills'
+    key:        skills
+  - name:       'References'
+    key:        references
+personal_info:
+  - name:       Address
+    data:       'Bhubaneswar, Odisha, India'
+  - name:       Phone
+    data:       '+(91) 7033 622 361'
+  - name:       Email
+    data:       'mea@shakebameen.com'
+skills:
+  - name: Internet of Things
+    keywords:
+      - Arduino
+      - Texas Instruments
+      - Mediatek
+      - Raspberry Pi
+      - Onion
+      - Libellium Waspmote
+      - Nordic Semiconductor
+  - name: Full Stack
+    keywords:
+      - HTML
+      - CSS
+      - PHP
+      - 'C#'
+      - Java
+      - Python
+  - name: Database
+    keyword:
+      - MSSQL
+      - MySQL
+      - Firebase
+  - name: Communication Protocols
+    keyword:
+      - BLE
+      - LoRa
+      - ZigBee
+      - HTTP
+      - MQTT
+  - name: Tools & Frameworks
+    keyword:
+      - CodeIgniter
+      - Segger Embedded Studio
+      - Altium Designer
+  - name: Cloud & Networking
+    keyword:
+      - AWS
+      - Google Cloud Platform
+      - Microsoft Azure
+references:
+  - name: Mr. Sameer Gitay
+    pos: CFO
+    address: 'SQR Infortech Pvt Ltd, Pune, India'
+    phone: '(+91) 9552 549 447'
+    email: sameersqr@gmail.com
+  - name: Prof. Satyendra Patnaik
+    address: 'KIIT University, Bhubaneswar, India'
+    phone: '(+91) 9437 041 465'
