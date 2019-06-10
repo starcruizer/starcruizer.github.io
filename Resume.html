@@ -183,6 +183,21 @@ permalink: /resume/
     .major {
       font-family: 'Lora';
       color: gray;
+
+      /* Gray region CSS */
+
+      .grayTable td {
+        padding: 2px 2px 8px 2px !important;
+      }
+
+      .skill_name {
+        font-weight: 300;
+        float: left;
+      }
+
+      .gray_exp_keywords {
+        margin: 4px;
+      }
     }
   </style>
 </head>
@@ -242,9 +257,44 @@ permalink: /resume/
     {% for section in resume.personal %}
     <section>
       <h2>{{ section.name }}</h2>
-      <table class="value-table">
+      <table class="grayTable">
         <tbody>
-        {% for items in resume[setion.key] %}
+          {% for item in resume[section.key] %}
+          <tr>
+            <td>
+
+              {% if item.data %}
+              <div class="exp_name">
+                {{ item.name }}
+              </div>
+              <div class="exp_about"> {{ item.data }} </div>
+              {% elsif item.keywords %}
+              <div class="skill_name">
+                {{ item.name }}
+                <div class="gray_exp_keywords">
+                  {% for keyword in item.keywords %}
+                  <span class="keyword">{{ keyword }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% elsif item.pos %}
+              <div class="exp_about">
+                {{ item.pos }}
+                <div>
+                  {{ item.address }}
+                </div>
+                <div>
+                  {{ item.phone }}
+                </div>
+                <div>
+                  {{ item.email }}
+                </div>
+              </div>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
         </tbody>
       </table>
     </section>

@@ -105,7 +105,7 @@ awards:
     intro:      >
       Developed and pitched a <em>Smart Air Quality Index</em> device for Smart Homes and industries.
 personal:
-  - name:       'Personal Information'
+  - name:       'Personal Info'
     key:        personal_info
   - name:       'Skills'
     key:        skills
@@ -117,9 +117,9 @@ personal_info:
   - name:       Phone
     data:       '+(91) 7033 622 361'
   - name:       Email
-    data:       'mea@shakebameen.com'
+    data:       'me@shakebameen.com'
 skills:
-  - name: Internet of Things
+  - name: <em> Internet of Things</em> &mdash;
     keywords:
       - Arduino
       - Texas Instruments
@@ -128,7 +128,7 @@ skills:
       - Onion
       - Libellium Waspmote
       - Nordic Semiconductor
-  - name: Full Stack
+  - name: <em> Full Stack</em> &mdash;
     keywords:
       - HTML
       - CSS
@@ -136,25 +136,25 @@ skills:
       - 'C#'
       - Java
       - Python
-  - name: Database
-    keyword:
+  - name: <em>Database</em> &mdash;
+    keywords:
       - MSSQL
       - MySQL
       - Firebase
-  - name: Communication Protocols
-    keyword:
+  - name: <em>Communication Protocols</em> &mdash;
+    keywords:
       - BLE
       - LoRa
       - ZigBee
       - HTTP
       - MQTT
-  - name: Tools & Frameworks
-    keyword:
+  - name: <em>Tools & Frameworks </em>&mdash;
+    keywords:
       - CodeIgniter
       - Segger Embedded Studio
       - Altium Designer
-  - name: Cloud & Networking
-    keyword:
+  - name: <em>Cloud & Networking </em>&mdash;
+    keywords:
       - AWS
       - Google Cloud Platform
       - Microsoft Azure
