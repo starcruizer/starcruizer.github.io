@@ -130,7 +130,6 @@ permalink: /resume/
     }
 
     .value-table td:nth-child(1) {
-      padding-top: 2px;
       width: 112px;
       text-align: right;
     }
@@ -186,18 +185,24 @@ permalink: /resume/
 
       /* Gray region CSS */
 
-      .grayTable td {
-        padding: 2px 2px 8px 2px !important;
+      .gray_table td {
+        padding: 2px 2px 8px 2px;
+        border-spacing: 1px;
+      }
+
+      .gray_table td:nth-child(1) {
+      padding-top: 2px;
       }
 
       .skill_name {
-        font-weight: 300;
+        font-weight: 700;
         float: left;
       }
 
       .gray_exp_keywords {
         margin: 4px;
       }
+
     }
   </style>
 </head>
@@ -257,25 +262,24 @@ permalink: /resume/
     {% for section in resume.personal %}
     <section>
       <h2>{{ section.name }}</h2>
-      <table class="grayTable">
+      <table class="gray_table">
         <tbody>
           {% for item in resume[section.key] %}
           <tr>
             <td>
-
               {% if item.data %}
               <div class="exp_name">
                 {{ item.name }}
               </div>
               <div class="exp_about"> {{ item.data }} </div>
-              {% elsif item.keywords %}
+              {% elsif item.keywords %}``
               <div class="skill_name">
                 {{ item.name }}
-                <div class="gray_exp_keywords">
+                <span class="gray_exp_keywords">
                   {% for keyword in item.keywords %}
                   <span class="keyword">{{ keyword }}</span>
                   {% endfor %}
-                </div>
+                </span>
               </div>
 
               {% elsif item.pos %}

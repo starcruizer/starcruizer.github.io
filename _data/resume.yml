@@ -119,7 +119,7 @@ personal_info:
   - name:       Email
     data:       'me@shakebameen.com'
 skills:
-  - name: <em> Internet of Things</em> &mdash;
+  - name: <em><strong> Internet of Things &mdash;  </strong></em>
     keywords:
       - Arduino
       - Texas Instruments
@@ -128,7 +128,7 @@ skills:
       - Onion
       - Libellium Waspmote
       - Nordic Semiconductor
-  - name: <em> Full Stack</em> &mdash;
+  - name: <em><strong> Full Stack &mdash; </strong></em>
     keywords:
       - HTML
       - CSS
@@ -136,24 +136,24 @@ skills:
       - 'C#'
       - Java
       - Python
-  - name: <em>Database</em> &mdash;
+  - name: <em> <strong> Database &mdash;</strong> </em>
     keywords:
       - MSSQL
       - MySQL
       - Firebase
-  - name: <em>Communication Protocols</em> &mdash;
+  - name: <strong> <em>Communication Protocols &mdash;</em> </strong>
     keywords:
       - BLE
       - LoRa
       - ZigBee
       - HTTP
       - MQTT
-  - name: <em>Tools & Frameworks </em>&mdash;
+  - name: <em> <strong> Tools & Frameworks &mdash; </strong> </em>
     keywords:
       - CodeIgniter
       - Segger Embedded Studio
       - Altium Designer
-  - name: <em>Cloud & Networking </em>&mdash;
+  - name: <em> <strong> Cloud & Networking &mdash; </strong> </em>
     keywords:
       - AWS
       - Google Cloud Platform
