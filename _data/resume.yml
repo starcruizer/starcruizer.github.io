@@ -82,25 +82,25 @@ education:
      major:     'Bachelor of Technology <em>in</em> Information Technology'
 awards:
   - timeline:   Nov 2018
-    name:       'Smart Odisha Hackathon, Govt. of India'
+    name:       <a href="https://www.hackerearth.com/challenges/hackathon/smart-odisha-hackathon/" target='_blank'>Smart Odisha Hackathon, Govt. of India</a>
     pos:        'National Winner'
     intro:      >
       Won the National Prize in <em>Open Innovation challenge for smart technologies</em>, at the Smart Odisha
       Hackathon 2018 by Make in Odisha Conclave, Govt. of India.
   - timeline:   Oct 2018
-    name:       'TATA Crucible Corporate Hackathon'
+    name:       <a href="http://tatacrucible.com/hackathon/Mumbai_report.php" target='_blank'>TATA Crucible Corporate Hackathon</a>
     pos:        Grand Prize Winner
     intro:      >
       Developed a winning solution for the <em>Smart City Enabler challenge</em> - <em>CityX </em>a IoT platform for
       the new age problems of Smart Cities using custom IoT gateway.
   - timeline:   July 2018
-    name:       'Smart India Hackathon Hardware Edition'
+    name:       <a href="https://innovate.mygov.in/sih2018-hardware/" target='_blank' >Smart India Hackathon Hardware Edition</a>
     pos:        National Finalist
     intro:      >
       Developed and pitched a <em>Smart Mesh</em> based Smart Communication for Flood Warning at World's
       Biggest Open Innovation Movement in India.
   - timeline:   Dec 2017
-    name:       'Makeovation'
+    name:       'Make-o-vation'
     pos:        Runner Up
     intro:      >
       Developed and pitched a <em>Smart Air Quality Index</em> device for Smart Homes and industries.
