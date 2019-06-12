@@ -10,206 +10,20 @@ permalink: /resume/
 
 <head>
   <title>{{ page.title }}</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link
-    href="https://fonts.googleapis.com/css?family=Alegreya+SC|Alegreya+Sans+SC|Alegreya+Sans:400,700|Alegreya:400,700,700i,900,900i|Amatic+SC:400,700|Fjalla+One|Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i|Lato|Merriweather+Sans:400,700|Merriweather:300,400,700|Montserrat+Alternates:200,400,500,700,900|Montserrat+Subrayada|Montserrat:200i,400,700|Noto+Sans+HK|Noto+Sans:400,700|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|Playfair+Display+SC:400,900|Playfair+Display:400,400i,700,700i,900,900i|Raleway|Raleway+Dots|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Source+Sans+Pro:400,400i,700,900&display=swap"
-    rel="stylesheet">
-  <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  <style>
-    html {
-      background: #333;
-    }
 
-    body {
-
-      font-family: 'Lora';
-      font-size: 10pt;
-      text-rendering: geometricPrecision;
-      height: 297mm;
-      width: 210mm;
-      position: relative;
-      background: white;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-      margin: auto;
-    }
-
-    a {
-      color: #378df6;
-      text-decoration: none;
-      color: inherit !important;
-      text-decoration: none;
-    }
-
-    * {
-      font-kerning: normal !important;
-    }
-
-    header {
-      font-size: 12pt;
-      background: black;
-      color: white;
-      padding: 4mm;
-      font-family: 'Source Sans Pro';
-      display: flex;
-      align-items: center;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: 'Source Sans Pro';
-      font-weight: 300;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-
-    section {
-      margin: 10px 10px;
-    }
-
-    .underline {
-      text-decoration: underline;
-      color: gray;
-    }
-
-    header h1 {
-      letter-spacing: 4pt;
-    }
-
-    header h1,
-    h2 {
-      margin: 0;
-    }
-
-    header h2 {
-      font-size: 12pt;
-      font-weight: 100;
-      font-family: 'Lora';
-      font-style: italic;
-      text-transform: none;
-    }
-
-    .white_region {
-      float: left;
-      width: 70%;
-      display: inline_block;
-      height: 272.8mm;
-      background-color: white;
-
-    }
-
-    .gray_region {
-      float: left;
-      width: 30%;
-      display: inline_block;
-      height: 272.8mm;
-      background-color: rgba(136, 132, 132, 0.31);
-    }
-
-    @page {
-      size: 7in 9.25in;
-      margin: 27mm 16mm 27mm 16mm;
-    }
-
-    footer {
-      font-size: smaller;
-      position: absolute;
-      bottom: 10px;
-      left: 0px;
-      width: 100%;
-      text-align: center;
-      color: gray;
-      font-family: 'Lora', monospace;
-    }
-
-    .value-table td {
-      padding: 2px 2px 8px 2px;
-    }
-
-    .value-table td:nth-child(1) {
-      width: 112px;
-      text-align: right;
-    }
-
-    .exp_time {
-      color: gray;
-      vertical-align: top;
-    }
-
-    .exp_name {
-      font-weight: 700;
-      float: left;
-    }
-
-    .exp_position {
-      font-weight: 700;
-      float: right;
-    }
-
-    .exp_about {
-      clear: both;
-    }
-
-    .exp_keywords {
-      float: right;
-      margin: 4px;
-    }
-
-    .keyword {
-      font-family: 'PT Mono', monospace;
-      padding: 1px;
-      font-size: smaller
-    }
-
-    .keyword:last-child:after {
-      content: none;
-    }
-
-    .keyword:after {
-      content: ',';
-    }
-
-    .info {
-      font-family: 'Lora';
-      font-style: italic;
-      font-size: smaller;
-      text-align: center;
-    }
-
-    .major {
-      font-family: 'Lora';
-      color: gray;
-
-      /* Gray region CSS */
-
-      .gray_table td {
-        padding: 2px 2px 8px 2px;
-        border-spacing: 1px;
-      }
-
-      .gray_table td:nth-child(1) {
-      padding-top: 2px;
-      }
-
-      .skill_name {
-        font-weight: 700;
-        float: left;
-      }
-
-      .gray_exp_keywords {
-        margin: 4px;
-      }
-
-    }
-  </style>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/v4-shims.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/resume.css" | relative_url }}">
 </head>
 
 <body>
-  <header>
 
+  <div class="resumePicPlaceholder">
+    <img class="resumePic" src="{{ "/assets/resumePicFinal.png" | relative_url }}" alt="Profile Picture">
+  </div>
+
+  <header>
     <a href="https://www.shakebameen.com">
       <div>
         <h1>Shakeb Ameen</h1>
@@ -217,6 +31,7 @@ permalink: /resume/
       </div>
     </a>
   </header>
+
   <div class="white_region">
     {% for section in resume.sections %}
     <section>
@@ -255,45 +70,49 @@ permalink: /resume/
     </section>
     {% endfor %}
   </div>
-
   <!-- skills region -->
 
   <div class="gray_region">
+    <br/><br/><br/><br/>
     {% for section in resume.personal %}
     <section>
       <h2>{{ section.name }}</h2>
-      <table class="gray_table">
+      <table class="gray-table">
         <tbody>
           {% for item in resume[section.key] %}
           <tr>
-            <td>
+            <td class="gray-table">
               {% if item.data %}
               <div class="exp_name">
                 {{ item.name }}
               </div>
-              <div class="exp_about"> {{ item.data }} </div>
-              {% elsif item.keywords %}``
+              <div class="exp_about">
+                {{ item.data }}
+              </div>
+              {% elsif item.keywords %}
               <div class="skill_name">
                 {{ item.name }}
-                <span class="gray_exp_keywords">
+                <span class="gray_keywords">
                   {% for keyword in item.keywords %}
                   <span class="keyword">{{ keyword }}</span>
                   {% endfor %}
                 </span>
               </div>
-
               {% elsif item.pos %}
+              <div class="exp_name">
+                {{ item.name }}
+              </div>
               <div class="exp_about">
                 {{ item.pos }}
-                <div>
-                  {{ item.address }}
-                </div>
-                <div>
-                  {{ item.phone }}
-                </div>
-                <div>
-                  {{ item.email }}
-                </div>
+              </div>
+              <div>
+                {{ item.address }}
+              </div>
+              <div>
+                <i class="fas fa-phone"></i>&nbsp;{{ item.phone }}
+              </div>
+              <div>
+                <i class="fas fa-envelope"></i>&nbsp;{{ item.email }}
               </div>
               {% endif %}
             </td>

@@ -113,13 +113,13 @@ personal:
     key:        references
 personal_info:
   - name:       Address
-    data:       'Bhubaneswar, Odisha, India'
+    data:       <i class="fas fa-map-marker-alt"></i>&nbsp;Bhubaneswar, Odisha, India
   - name:       Phone
-    data:       '+(91) 7033 622 361'
+    data:       <i class="fas fa-phone"></i>&nbsp;<a href="tel:+917033622361">(+91) 7033 622 361</a>
   - name:       Email
-    data:       'me@shakebameen.com'
+    data:       <i class="fas fa-envelope"></i>&nbsp;<em><a href="mailto:me@shakebameen.com">me@shakebameen.com</a></em>
 skills:
-  - name: <em><strong> Internet of Things &mdash;  </strong></em>
+  - name:       <em><strong> Internet of Things &mdash;  </strong></em>
     keywords:
       - Arduino
       - Texas Instruments
@@ -128,7 +128,7 @@ skills:
       - Onion
       - Libellium Waspmote
       - Nordic Semiconductor
-  - name: <em><strong> Full Stack &mdash; </strong></em>
+  - name:       <em><strong> Full Stack &mdash; </strong></em>
     keywords:
       - HTML
       - CSS
@@ -136,34 +136,36 @@ skills:
       - 'C#'
       - Java
       - Python
-  - name: <em> <strong> Database &mdash;</strong> </em>
+  - name:       <em> <strong> Database &mdash;</strong> </em>
     keywords:
       - MSSQL
       - MySQL
       - Firebase
-  - name: <strong> <em>Communication Protocols &mdash;</em> </strong>
+  - name:       <strong> <em>Communication Protocols &mdash;</em> </strong>
     keywords:
       - BLE
       - LoRa
       - ZigBee
       - HTTP
       - MQTT
-  - name: <em> <strong> Tools & Frameworks &mdash; </strong> </em>
+  - name:       <em> <strong> Tools & Frameworks &mdash; </strong> </em>
     keywords:
       - CodeIgniter
       - Segger Embedded Studio
       - Altium Designer
-  - name: <em> <strong> Cloud & Networking &mdash; </strong> </em>
+  - name:       <em> <strong> Cloud & Networking &mdash; </strong> </em>
     keywords:
       - AWS
       - Google Cloud Platform
       - Microsoft Azure
 references:
-  - name: Mr. Sameer Gitay
-    pos: CFO
-    address: 'SQR Infortech Pvt Ltd, Pune, India'
-    phone: '(+91) 9552 549 447'
-    email: sameersqr@gmail.com
-  - name: Prof. Satyendra Patnaik
-    address: 'KIIT University, Bhubaneswar, India'
-    phone: '(+91) 9437 041 465'
+  - name:       <em>Prof. Satyendra Patnaik</em>
+    pos:        '<em> Rector </em>'
+    address:    'KIIT University, Bhubaneswar, India'
+    phone:      <a href="tel:+919437041465">(+91) 9437 041 465</a>
+    email:      <a href="mailto:satyendra.patnaik@gmail.com">satyendra.patnaik@gmail.com</a>
+  - name:       <em>Mr. Sameer Gitay</em>
+    pos:        '<em> CFO</em>'
+    address:    'SQR Infortech Pvt Ltd, Pune, India'
+    phone:      <a href="tel:+919552549447">(+91) 9552 549 447</a>
+    email:      <a href="mailto:sameersqr@gmail.com">sameersqr@gmail.com</a>

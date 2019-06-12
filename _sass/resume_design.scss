@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+html {
+  background: #333;
+}
+
+body {
+  font-family: 'Lora';
+  font-size: 10pt;
+  text-rendering: geometricPrecision;
+  height: 297mm;
+  width: 210mm;
+  position: relative;
+  background: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+a {
+  color: #378df6;
+  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none;
+}
+
+* {
+  font-kerning: normal !important;
+}
+
+header {
+  font-size: 12pt;
+  background: black;
+  color: white;
+  padding: 4mm;
+  font-family: 'Source Sans Pro';
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+section {
+  margin: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: gray;
+}
+
+header h1 {
+  letter-spacing: 4pt;
+}
+
+h2,
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  font-size: 12pt;
+  font-weight: 100;
+  font-family: 'Lora';
+  font-style: italic;
+  text-transform: none;
+}
+/* Profile photo region CSS */
+.resumePicPlaceholder {
+  float: right;
+  padding-right: 195px;
+}
+
+.resumePic {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-top: 10px;
+}
+/* White region CSS */
+.white_region {
+  float: left;
+  width: 70%;
+  display: inline_block;
+  height: 272.8mm;
+  background-color: white;
+}
+
+.gray_region {
+  float: left;
+  width: 30%;
+  display: inline_block;
+  height: 272.8mm;
+  background-color: rgba(136, 132, 132, 0.31);
+}
+@page {
+  size: 7in 9.25in;
+  margin: 27mm 16mm;
+}
+
+footer {
+  font-size: smaller;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: gray;
+  font-family: 'Lora', monospace;
+}
+
+.value-table td {
+  padding: 2px 2px 8px;
+}
+
+.value-table td:nth-child(1) {
+  width: 112px;
+  text-align: right;
+}
+
+.exp_time {
+  color: gray;
+  vertical-align: top;
+}
+
+.exp_name {
+  font-weight: 700;
+  float: left;
+}
+
+.exp_position {
+  font-weight: 700;
+  float: right;
+}
+
+.exp_about {
+  clear: both;
+}
+
+.exp_keywords {
+  float: right;
+  margin: 4px;
+}
+
+.keyword {
+  font-family: 'PT Mono', monospace;
+  padding: 1px;
+  font-size: smaller;
+}
+
+.keyword:last-child:after {
+  content: none;
+}
+
+.keyword:after {
+  content: ',';
+}
+
+.info {
+  font-family: 'Lora';
+  font-style: italic;
+  font-size: smaller;
+  text-align: center;
+}
+
+.major {
+  font-family: 'Lora';
+  color: gray;
+}
+/* Gray region CSS */
+.gray-table td {
+  padding: 8px 2px 4px 0;
+}
+
+.skill_name {
+  font-weight: 300;
+  float: left;
+}
+
+.gray_keywords {
+  margin: 4px;
+}
