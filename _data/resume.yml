@@ -1,4 +1,4 @@
-headline:       'Software Developer / IoT Engineer / Designer'
+headline:       'Software Developer / IoT Engineer / Technical Writer'
 social_links:
 - icon:         fa-globe
   name:         Website
@@ -22,7 +22,8 @@ sections:
     key:        experiences
     info:       >
       In addition to the mentioned experience, I have also been working on personal
-      projects since 2016.
+      projects like <a href="https://shakebameen.com" style="text-decoration: underline;"> technical blogs, web development</a>
+      and freelancing since 2016
   - name:       Education
     key:        education
   - name:       'Awards &amp; Achievements'
@@ -30,28 +31,26 @@ sections:
 experiences:
   - timeline:   Jan 18 &mdash; Present
     name:       '<a href="https://sqrinfotech.com/">SQR Infotech Pvt Ltd</a>'
-    pos:        IoT Intern
+    pos:        IoT Intern, Technical Writer
     intro:      >
       Currently working on Bluetooth 5 based <em>smart communication - Indoor
       positioning system</em>. As the hardware solutions leader, my day to day task include
       devising new solutions using full embedded life cycle, providing clients with full
-      stack cloud based connectivity solutions for IoT devices. Management of task
-      and coordination among different technology sets for overall product buildup.
+      stack cloud based connectivity solutions for IoT devices. Additionally I also design the documentation and product manuals
+      using Jekyll on Github Pages platform.
     keywords:
-      - Bluetooth 5
+      - Jekyll
       - nRF52
       - Google Cloud IoT
       - Android Things
-      - Java
+
   - timeline:   Oct 18 &mdash; Dec 18
     name:       '<a href="https://yups.asia/">YUPS ASIA</a>'
     pos:        IoT Trainee
     intro:      >
       Learned new technologies for devising smart city solutions using Bluetooth 5.
       Made Smart LoRa and BLE5 confluence based <em>IoT Gateway for Smart
-      Communications</em>. Learned new technologies for devising smart city solutions using Bluetooth 5.
-      Made Smart LoRa and BLE5 confluence based IoT Gateway for Smart
-      Communications.
+      Communications</em>.
     keywords:
       - nRF52
       - Arduino
@@ -61,16 +60,16 @@ experiences:
       - Python
   - timeline:   Sep 17 &mdash; Sep 18
     name:       '<a href="https://kiit.ac.in/">IoT R&D Lab</a>'
-    pos:        Junior Research Fellow
+    pos:        Junior Research Fellow, Technical Writer
     intro:      >
       Worked on MQTT based novel approach for air quality monitoring and real time
-      weather analysis with alert facility for residents. Made a <em>Smart Floor warning
-      system</em> based on <em>Smart Mesh</em> networking for Hydro Power stations and dams.
+      weather analysis with alert facility for residents. Designed a HTML documentation of <em> Smart Floor warning
+      system</em> project.
     keywords:
-      - LoRaWAN
+      - HTML
+      - CSS
+      - MySQL
       - ZigBee
-      - TI
-      - SQL
       - Azure IoT
       - Python
 education:
@@ -158,6 +157,12 @@ skills:
       - AWS
       - Google Cloud Platform
       - Microsoft Azure
+  - name:       <em> <strong> Documentation & Web &mdash; </strong> </em>
+    keywords:
+      - Jekyll
+      - HTML
+      - CSS
+      - PHP
 references:
   - name:       <em>Prof. Satyendra Patnaik</em>
     pos:        '<em> Rector </em>'

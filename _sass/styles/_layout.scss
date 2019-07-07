@@ -38,7 +38,13 @@
 .site-nav {
   font-family: $title-font-family;
   font-weight: bold !important;
-  
+  position: absolute;
+  top:9px;
+  right: 15px;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  text-align: right;
 
   .nav-trigger {
       display: none;
