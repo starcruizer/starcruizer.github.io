@@ -195,9 +195,8 @@ footer {
 }
 
 @page {
-  size: Letter;
-  width: 8.5in;
-  height: 11in;
+  size: 7in 9.25in;
+  margin: 27mm 16mm;	
 }
 
 @media print {
