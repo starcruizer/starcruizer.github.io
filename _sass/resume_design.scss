@@ -91,21 +91,16 @@ header h2 {
   float: left;
   width: 70%;
   display: inline_block;
-  height: 272.8mm;
-  background-color: white;
+  height: min-content;
 }
 
 .gray_region {
   float: left;
   width: 30%;
-  display: inline_block;
-  height: 272.8mm;
+  height: 255.5mm;
   background-color: rgba(136, 132, 132, 0.31);
 }
-@page {
-  size: 7in 9.25in;
-  margin: 27mm 16mm;
-}
+
 
 footer {
   font-size: smaller;
@@ -189,4 +184,28 @@ footer {
 
 .gray_keywords {
   margin: 4px;
+}
+
+.downloadButton{
+  color: white;
+  padding: 4px ;
+  text-align: center;
+  margin-top: 10.3in;
+  margin-bottom: 0.5in;
+}
+
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+@media print {
+
+  html, body {
+    height:100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
 }
