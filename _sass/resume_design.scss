@@ -91,7 +91,7 @@ header h2 {
   float: left;
   width: 70%;
   display: inline_block;
-  height: min-content;
+  height: 255.5mm;
 }
 
 .gray_region {
@@ -195,8 +195,9 @@ footer {
 }
 
 @page {
-  size: 7in 9.25in;
-  margin: 27mm 16mm;	
+  size: Letter;
+   width: 8.5in;
+   height: 11in;
 }
 
 @media print {
