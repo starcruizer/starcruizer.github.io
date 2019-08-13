@@ -29,11 +29,24 @@ sections:
   - name:       'Awards &amp; Achievements'
     key:        awards
 experiences:
-  - timeline:   Jan 18 &mdash; Present
+  - timeline:   Aug 3 &mdash; Present
+      name:       '<a href="https://nctu.edu.tw/">NCTU, Taiwan</a>'
+      pos:        Research Intern
+      intro:      >
+        Responsible for research in <em>IoT for Safety Engineering</em> in constrction
+        industries. Designing complete embedded lifecycle and an IoT product for safety of workers in workplace.
+      keywords:
+        - IIoT
+        - nRF91
+        - Unity 3D
+        - NB-IoT
+        - SigFox
+
+  - timeline:   Jan 18 &mdash; August 18
     name:       '<a href="https://sqrinfotech.com/">SQR Infotech Pvt Ltd</a>'
     pos:        IoT Intern, Technical Writer
     intro:      >
-      Currently working on Bluetooth 5 based <em>smart communication - Indoor
+      Worked on Bluetooth 5 based <em>smart communication - Indoor
       positioning system</em>. As the hardware solutions leader, my day to day task include
       devising new solutions using full embedded life cycle, providing clients with full
       stack cloud based connectivity solutions for IoT devices. Additionally I also design the documentation and product manuals
@@ -44,20 +57,6 @@ experiences:
       - Google Cloud IoT
       - Android Things
 
-  - timeline:   Oct 18 &mdash; Dec 18
-    name:       '<a href="https://yups.asia/">YUPS ASIA</a>'
-    pos:        IoT Trainee
-    intro:      >
-      Learned new technologies for devising smart city solutions using Bluetooth 5.
-      Made Smart LoRa and BLE5 confluence based <em>IoT Gateway for Smart
-      Communications</em>.
-    keywords:
-      - nRF52
-      - Arduino
-      - AWS
-      - Lora
-      - PHP
-      - Python
   - timeline:   Sep 17 &mdash; Sep 18
     name:       '<a href="https://kiit.ac.in/">IoT R&D Lab</a>'
     pos:        Junior Research Fellow, Technical Writer
