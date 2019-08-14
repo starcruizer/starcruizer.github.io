@@ -30,17 +30,17 @@ sections:
     key:        awards
 experiences:
   - timeline:   Aug 3 &mdash; Present
-      name:       '<a href="https://nctu.edu.tw/">NCTU, Taiwan</a>'
-      pos:        Research Intern
-      intro:      >
-        Responsible for research in <em>IoT for Safety Engineering</em> in constrction
-        industries. Designing complete embedded lifecycle and an IoT product for safety of workers in workplace.
-      keywords:
-        - IIoT
-        - nRF91
-        - Unity 3D
-        - NB-IoT
-        - SigFox
+    name:     '<a href="https://nctu.edu.tw/">National Chiao Tung University, <em>Taiwan</em></a>'
+    pos:      Research Intern
+    intro:    >
+      Responsible for research in <em>IoT for Safety Engineering</em> in constrction
+      industries. Designing complete embedded lifecycle and an IoT product for safety of workers in any workplace.
+    keywords:
+      - IIoT
+      - nRF91
+      - Unity 3D
+      - NB-IoT
+      - SigFox
 
   - timeline:   Jan 18 &mdash; August 18
     name:       '<a href="https://sqrinfotech.com/">SQR Infotech Pvt Ltd</a>'
