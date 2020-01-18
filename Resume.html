@@ -54,11 +54,12 @@ permalink: /resume/
               {% endif %}
               <div class="exp_about">
                 <span>{{ experience.intro | smartify }}</span>
-                <div class="exp_keywords">
-                  {% for keyword in experience.keywords %}
-                  <span class="keyword">{{ keyword }}</span>
-                  {% endfor %}
-                </div>
+
+              </div>
+              <div class="exp_keywords">
+                {% for keyword in experience.keywords %}
+                <span class="keyword">{{ keyword }}</span>
+                {% endfor %}
               </div>
             </td>
           </tr>
