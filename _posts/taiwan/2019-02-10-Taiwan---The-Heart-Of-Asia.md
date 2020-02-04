@@ -21,7 +21,3 @@ I almost forgot to mention how I came into contact with Nanhua University, Taiwa
 Immediately I rushed to the lab and looked for the perfect match, and to my surprise, I found it. I ran back to the classroom and handed it over to Prof. Lai. I could hear his *sigh* of relief, and he said it works!.
 
 This was the beginning of our friendship, that lasts till now and shall last for many more years to come.
-
-![Nanhua University](http://en.nhu.edu.tw/uploads/ad_image/file/54b87efb7470001314160100/indexbanner1.jpg)
-
-*Here's google image as glimpse of university*
