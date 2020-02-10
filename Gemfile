@@ -5,3 +5,4 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'jemoji'
 gem 'rmega'
 gem 'faraday', '< 1.0'
+gem 'rmega'
