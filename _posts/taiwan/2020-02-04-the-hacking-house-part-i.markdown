@@ -6,24 +6,30 @@ tags: [taiwan, sigfox, unabiz]
 ---
 > A  __[sigfox](https://sigfox.com){:target="_blank"}__ moonshot lab for young entrepreneurs.
 
-{% assign photo = site.data.photos  .hacking_house %}
+{% assign photos = site.data.photos.hacking_house.taiwan_photos %}
 
-This fall, I joined one of the Sigfox Hacking House, held at Taipei. __[Unabiz](https://unabiz.com){:target="_blank"}__ , a sigfox operator in Taiwan and a __Massive IoT enabler__, was the organizer for the event.
-{{ photo.intro }}
+This fall, I joined one of the Sigfox Hacking House, held at Taipei. __[Unabiz](https://unabiz.com){:target="_blank"}__ , a Sigfox operator in Taiwan and a __Massive IoT enabler__, was the organizer for the event.
+
+<!-- {% include carousel.html height="100" unit="%" duration="7" %} -->
+{% for img in photos %}
+  <img src="{{ img.url }}" alt="@Photo" style="width:100%">
+{% endfor %}
+
 <div style="display: table;" markdown="1">
 
-<div style="float: left; width: 30%; padding: 5px;" markdown="1">
-[![Sigfox](https://www.unabiz.com/wp-content/uploads/2019/03/sigfox_hackinghouse_logo_rgb_YW73dC1m7a.png)](https://thehackinghouse.com){:target="_blank"}   
+<div style="float: left; width: 30%; padding: 4px;" markdown="1">
+[![Sigfox](https://drive.google.com/uc?export=download&id=1ekCYwHOF6b-I1pRO-mw5GwpJhLfEev07)](https://thehackinghouse.com){:target="_blank"}   
 </div>
 
-<div style="float: left; width: 30%; padding: 5px;" markdown="1">
-[![Unabiz](https://www.unabiz.com/wp-content/uploads/2019/11/unabiz-logo-png.png)](https://unabiz.com){:target="_blank"}   
+<div style="float: left; width: 30%; padding: 4px;" markdown="1">
+[![Unabiz](https://drive.google.com/uc?export=download&id=12gNQtJPaNUbobNbnQFkvpTCpoEIiYGUH)](https://unabiz.com){:target="_blank"}   
 </div>
 
-<div style="float: left; width: 30%; padding: 5px;" markdown="1">
+<div style="float: left; width: 30%; padding: 4px;" markdown="1">
 [![Sigfox](https://drive.google.com/uc?export=download&id=1_W8ouyHou8Z118srs_0ULco5MBMtZf_K)](https://sigfox.com){:target="_blank"}  
 </div>
 
 </div>
 
-My professor introduced me about the hacking house program in 2019.
+My professor introduced me to the hacking house program in 2019.
+[video link](https://youtu.be/iWowJBRMtpc?t=90s){:.no-lightbox}
