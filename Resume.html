@@ -19,9 +19,8 @@ permalink: /resume/
 </head>
 
 <body>
-
   <div class="resumePicPlaceholder">
-    <img class="resumePic" src="{{ "/assets/resumePicFinal.png" | relative_url }}" alt="Profile Picture">
+    <img class="resumePic" src="{{ "/assets/ResumePic2.png" | relative_url }}" alt="Profile Picture" style="border-radius: 50%; "/>
   </div>
 
   <header>
@@ -110,12 +109,17 @@ permalink: /resume/
               <div>
                 {{ item.address }}
               </div>
+              {% if item.phone %}
               <div>
                 <i class="fas fa-phone"></i>&nbsp;{{ item.phone }}
               </div>
+              {% endif %}
+              {% if item.email %}
               <div>
                 <i class="fas fa-envelope"></i>&nbsp;{{ item.email }}
               </div>
+              {% endif %}
+              
               {% endif %}
             </td>
           </tr>

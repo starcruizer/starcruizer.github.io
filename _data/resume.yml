@@ -16,7 +16,7 @@ meta:
   email:        'me@shakebameen.com'
   phone:
     - '(+91) 7033 622 361'
-    - '(+886) 0937 040 327'
+    - '(+886) 977 077 657'
 sections:
   - name:       Experience
     key:        experiences
@@ -29,41 +29,38 @@ sections:
   - name:       'Awards &amp; Achievements'
     key:        awards
 experiences:
-  - timeline:   Aug 2019 &mdash; Present
-    name:     '<a href="https://nctu.edu.tw/">National Chiao Tung University, <em>Taiwan</em></a>'
-    pos:      Research Intern @ TEEP
+  - timeline:   June 2023 &mdash; Present
+    name:     '<a href="https://locusconnect.com/">Locus Connect Technologies Co. Ltd., <em>Taiwan</em></a>'
+    pos:      CEO &amp; Co-Founder
     intro:    >
-      Responsible for research in <em>IoT for Safety Engineering</em> in constrction
-      industries. Designing complete embedded lifecycle and an IoT product for safety of workers in any workplace.
+      Co-founded Locus Connect Technologies to build a complete IoT solution prpviding indoor and outdoor locations tracking systems 
+      for smart factories, athelete performance tracking and asset management. 
     keywords:
-      - IIoT
-      - nRF91
-      - UWB
-      - NB-IoT
+      - Ultrawideband (UWB) Radio 
+      - Indoor Positioning
 
-  - timeline:   Oct 2019 &mdash; Dec 2020
-    name:     '<a href="https://nctu.edu.tw/">Sigfox Hacking House, <em>Taipei, Taiwan</em></a>'
-    pos:      Participant
+  - timeline:   Sept 2021 &mdash; May 2023
+    name:     '<a href="https://nycu.edu.tw/">NYCU University <em>Taiwan</em></a>'
+    pos:      Research Engineer
     intro:    >
-      Gained product building experience from the industry leaders and business experts from Sigfox ecosystem. Invented <em>eCap</em> - Smart Connected Wrokforce Tracker.
+      Gained product building experience from the from Taiwan's top university academia, industry leaders and business experts from Sigfox ecosystem. Invented <em>eCap</em> - Smart Connected Wrokforce Tracker.
     keywords:
-      - Sigfox
+      - UWB Radar Development
       - LPWAN
+      - Team Management
+      - DeepTech
 
-  - timeline:   Sep 2017 &mdash; Sep 2018
-    name:      '<a href="https://kiit.ac.in/">IoT R&D Lab</a>'
-    pos:       Junior Research Fellow, Technical Writer
+  - timeline:   Sep 2020 &mdash; Aug 2021
+    name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, <em>India</em></a>'
+    pos:       Junior Research Fellow
     intro:     >
       Worked on MQTT based novel approach for air quality monitoring and real time
-      weather analysis with alert facility for residents. Designed a HTML documentation of <em> Smart Floor warning
-      system</em> project.
+      weather analysis with alert facility for residents.
     keywords:
-      - HTML
-      - CSS
-      - MySQL
-      - ZigBee
       - Azure IoT
-      - Python
+      - TinyML
+      - MQTT
+      
 education:
    - timeline:  'Feb 2019 &mdash; June 2019'
      name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a>'
@@ -72,8 +69,14 @@ education:
      name:      '<a href="https://kiit.ac.in">KIIT University, India (8.1/10)</a>'
      major:     'Bachelor of Technology <em>in</em> Information Technology'
 awards:
+  - timeline:   June 2024
+    name:       <a href="https://www.birac.nic.in/webcontent/1659441022_list_of_BIG20_Awardee.pdf" target='_blank'>BIRAC Award, India</a>
+    pos:        '5 Million INR Grant by Dept. of BioTech India'
+    intro:      >
+      Awarded the <em>BIG20</em> grant by BIRAC, worth 5 Million Indian Rupee from Govt. of India for the development of <em>BoviSense</em> - Smart Connected Bovine Tracker 
+      that act as smartwatch for farm animals for mintoring their health parameters and location.
   - timeline:   Jan 2020
-    name:       <a href="https://meet.bnext.com.tw/intl/articles/view/45980" target='_blank'>Sigfox hacking House, Taipei</a>
+    name:       <a href="https://meet.bnext.com.tw/intl/articles/view/45980" target='_blank'>Sigfox Hacking House, Taipei</a>
     pos:        'Winner of Season 2 Cohort'
     intro:      >
       Pitched a connected workforce device <em>eCap</em>, serving the connected devices market for costruction workers and safety managers.
@@ -95,11 +98,7 @@ awards:
     intro:      >
       Developed and pitched a <em>Smart Mesh</em> based Smart Communication for Flood Warning at World's
       Biggest Open Innovation Movement in India.
-  - timeline:   Dec 2017
-    name:       'Make-o-vation'
-    pos:        Runner Up
-    intro:      >
-      Developed and pitched a <em>Smart Air Quality Index</em> device for Smart Homes and industries.
+  
 
 personal:
   - name:       'Personal Info'
@@ -110,68 +109,51 @@ personal:
     key:        references
 personal_info:
   - name:       Address
-    data:       <i class="fas fa-map-marker-alt"></i>&nbsp;Bhubaneswar, Odisha, India
+    data:       <i class="fas fa-map-marker-alt"></i>&nbsp;Hsinchu, Taiwan
   - name:       Phone
-    data:       <i class="fas fa-phone"></i>&nbsp;<a href="tel:+917033622361">(+91) 7033 622 361</a>
+    data:       <i class="fas fa-phone"></i>&nbsp;<a href="tel:+886 977077657">(+886) 977 077 657</a>
   - name:       Email
     data:       <i class="fas fa-envelope"></i>&nbsp;<em><a href="mailto:me@shakebameen.com">me@shakebameen.com</a></em>
 skills:
-  - name:       <em><strong> Internet of Things &mdash;  </strong></em>
+  - name:       <em><strong> Business Management &mdash;  </strong></em>
     keywords:
-      - Arduino
-      - Texas Instruments
-      - Mediatek
-      - Raspberry Pi
-      - Onion
-      - Libellium Waspmote
-      - Nordic Semiconductor
-  - name:       <em><strong> Full Stack &mdash; </strong></em>
+      - Team Management
+      - Product Management
+      - Business Development
+      - Project Management
+      - Entrepreneurship
+  - name:       <em><strong> Systems Enginnering &mdash; </strong></em>
     keywords:
-      - HTML
-      - CSS
-      - PHP
-      - 'C#'
-      - Java
+      - IoT
+      - Embedded Systems
+      - Hardware Design
+      - PCB Design
+      - Firmware Development
+  - name:       <em><strong> Software Development &mdash; </strong></em>
+    keywords:
       - Python
-  - name:       <em> <strong> Database &mdash;</strong> </em>
+      - C
+      - C++
+   
+  - name:       <strong> <em> Radio Engineering &mdash;</em> </strong>
     keywords:
-      - MSSQL
-      - MySQL
-      - Firebase
-  - name:       <strong> <em>Communication Protocols &mdash;</em> </strong>
+      - UWB (Ultra Wideband)
+      - LPWAN (Low Power Wide Area Network)
+      - LoRaWAN
+      - Zigbee
+      - BLE (Bluetooth Low Energy)
+  - name:       <em> <strong> Data Science &mdash; </strong> </em>
     keywords:
-      - BLE
-      - LoRa
-      - ZigBee
-      - HTTP
-      - MQTT
-      - Sigfox
-      - NB-IoT
-      - UWB
-  - name:       <em> <strong> Tools & Frameworks &mdash; </strong> </em>
-    keywords:
-      - CodeIgniter
-      - Segger Embedded Studio
-      - Altium Designer
-  - name:       <em> <strong> Cloud & Networking &mdash; </strong> </em>
-    keywords:
-      - AWS
-      - Google Cloud Platform
-      - Microsoft Azure
-  - name:       <em> <strong> Documentation & Web &mdash; </strong> </em>
-    keywords:
-      - Jekyll
-      - HTML
-      - CSS
-      - PHP
+      - Machine Learning
+      - Deep Learning
+      - Data Analysis
+
 references:
   - name:       <em>Mr Ching Yao-Huang</em>
     pos:        '<em> Professor </em>'
-    address:    'NCTU, Taiwan'
-    phone:      <a href="tel:+919437041465">(+91) 9437 041 465</a>
-    email:      <a href="mailto:cyhuang@mail.nctu.edu.tw">cyhuang@mail.nctu.edu.tw</a>
-  - name:       <em>Mr Sameer Gitay</em>
-    pos:        '<em> CFO</em>'
-    address:    'SQR Infortech Pvt Ltd, Pune, India'
-    phone:      <a href="tel:+919552549447">(+91) 9552 549 447</a>
-    email:      <a href="mailto:sameersqr@gmail.com">sameersqr@gmail.com</a>
+    address:    'NYCU, Taiwan'
+    email:      <a href="mailto:cyhuang@nycu.edu.tw">cyhuang@nycu.edu.tw</a>
+  - name:       <em>Mr Quayaum Quamar</em>
+    pos:        '<em> Business Sales Manager</em>'
+    address:    'Barrington Edge, Nova Scotia, Canada'
+    email:      <a href="mailto:qquamar@barringtonedge.com">qquamar@barringtonedge.com</a>
