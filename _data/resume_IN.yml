@@ -1,0 +1,139 @@
+headline:       'Entrepreneur | Innovator | IoT Enthusiast'
+social_links:
+- icon:         fa-github
+  name:         Github
+  url:          https://github.com/starcruizer
+- icon:         fa-twitter
+  name:         Twitter
+  url:          https://twitter.com/shakebameen
+meta:
+  email:        'shakeb@datasynth.net'
+  phone:
+    - '(+91) 7033 622 361'
+sections:
+  - name:       Experience
+    key:        experiences
+  - name:       Education
+    key:        education
+  - name:       'Awards &amp; Achievements'
+    key:        awards
+experiences:
+  - timeline:   June 2024 &mdash; Present
+    name:     '<a href="https://datasynth.net/">Micromote, <em>India</em></a>'
+    pos:      CEO &amp; Co-Founder
+    intro:    >
+      Co-founded Micromote sensor to Revolutionizing Machine Monitoring with AIoT Sensors.
+    keywords:
+      - Embedded AI
+      - Predictive Maintenance
+
+  - timeline:   Sept 2021 &mdash; May 2023
+    name:     '<a href="https://nycu.edu.tw/">NYCU University <em>Taiwan</em></a>'
+    pos:      Research Engineer
+    intro:    >
+      Gained product building experience from the from Taiwan's top university academia, industry leaders and business experts from Sigfox ecosystem. Invented <em>eCap</em> - Smart Connected Wrokforce Tracker.
+    keywords:
+      - UWB Radar Development
+      - LPWAN
+      - Team Management
+      - DeepTech
+
+  - timeline:   Sep 2020 &mdash; Aug 2021
+    name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, <em>India</em></a>'
+    pos:       Junior Research Fellow
+    intro:     >
+      Worked on MQTT based novel approach for air quality monitoring and real time
+      weather analysis with alert facility for residents.
+    keywords:
+      - Azure IoT
+      - TinyML
+      - MQTT
+      
+education:
+   - timeline:  'Feb 2019 &mdash; June 2019'
+     name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a>'
+     major:     'Exchange Student <em>in</em> Semester Abroad Programme'
+   - timeline:  '2016 &mdash; 2020'
+     name:      '<a href="https://kiit.ac.in">KIIT University, India (8.1/10)</a>'
+     major:     'Bachelor of Technology <em>in</em> Information Technology'
+awards:
+  - timeline:   June 2024
+    name:       NIDHI Prayas Award, India
+    pos:        '5 Lac INR Grant by DST India'
+    intro:      >
+      Awarded the <em>NIDHI Prayas</em> grant by DST, worth 5 Lac Indian Rupee from Govt. of India for the development of <em>Micromote</em> - a smart sensor for machine monitoring.  
+  - timeline:   Nov 2018
+    name:       <a href="https://www.hackerearth.com/challenges/hackathon/smart-odisha-hackathon/" target='_blank'>Smart Odisha Hackathon, Govt. of India</a>
+    pos:        'National Winner'
+    intro:      >
+      Won the National Prize in <em>Open Innovation challenge for smart technologies</em>, at the Smart Odisha
+      Hackathon 2018 by Make in Odisha Conclave, Govt. of India.
+  - timeline:   Oct 2018
+    name:       <a href="http://tatacrucible.com/hackathon/Mumbai_report.php" target='_blank'>TATA Crucible Corporate Hackathon</a>
+    pos:        Grand Prize Winner
+    intro:      >
+      Developed a winning solution for the <em>Smart City Enabler challenge</em> - <em>CityX </em>a IoT platform for
+      the new age problems of Smart Cities using custom IoT gateway.
+  - timeline:   July 2018
+    name:       <a href="https://innovate.mygov.in/sih2018-hardware/" target='_blank' >Smart India Hackathon Hardware Edition</a>
+    pos:        National Finalist
+    intro:      >
+      Developed and pitched a <em>Smart Mesh</em> based Smart Communication for Flood Warning at World's
+      Biggest Open Innovation Movement in India.
+  
+
+personal:
+  - name:       'Personal Info'
+    key:        personal_info
+  - name:       'Skills'
+    key:        skills
+  - name:       'References'
+    key:        references
+personal_info:
+  - name:       Address
+    data:       <i class="fas fa-map-marker-alt"></i>&nbsp;Jamshedpur, India
+  - name:       Email
+    data:       <i class="fas fa-envelope"></i>&nbsp;<em><a href="mailto:shakeb@datasynth.net">shakeb@datasynth.net</a></em>
+skills:
+  - name:       <em><strong> Business Management &mdash;  </strong></em>
+    keywords:
+      - Team Management
+      - Product Management
+      - Business Development
+      - Project Management
+      - Entrepreneurship
+  - name:       <em><strong> Systems Enginnering &mdash; </strong></em>
+    keywords:
+      - IoT
+      - Embedded Systems
+      - Hardware Design
+      - PCB Design
+      - Firmware Development
+  - name:       <em><strong> Software Development &mdash; </strong></em>
+    keywords:
+      - Python
+      - C
+      - C++
+   
+  - name:       <strong> <em> Radio Engineering &mdash;</em> </strong>
+    keywords:
+      - UWB (Ultra Wideband)
+      - LPWAN (Low Power Wide Area Network)
+      - LoRaWAN
+      - Zigbee
+      - BLE (Bluetooth Low Energy)
+  - name:       <em> <strong> Data Science &mdash; </strong> </em>
+    keywords:
+      - Machine Learning
+      - Deep Learning
+      - Data Analysis
+
+references:
+  - name:       <em>Mr Ching Yao-Huang</em>
+    pos:        '<em> Professor </em>'
+    address:    'NYCU, Taiwan'
+    email:      <a href="mailto:cyhuang@nycu.edu.tw">cyhuang@nycu.edu.tw</a>
+  - name:       <em>Mr Quayaum Quamar</em>
+    pos:        '<em> Business Sales Manager</em>'
+    address:    'Barrington Edge, Nova Scotia, Canada'
+    email:      <a href="mailto:qquamar@barringtonedge.com">qquamar@barringtonedge.com</a>
