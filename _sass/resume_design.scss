@@ -150,15 +150,18 @@ footer {
   font-family: 'PT Mono', monospace;
   padding: 1px;
   font-size: smaller;
+  border-radius: 4px;
+  background-color: #ddd;
+  padding: 2px 4px;
 }
 
 .keyword:last-child:after {
   content: none;
 }
 
-.keyword:after {
-  content: ',';
-}
+// .keyword:after {
+//   content: ',';
+// }
 
 .info {
   font-family: 'Lora';

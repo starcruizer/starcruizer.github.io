@@ -6,7 +6,6 @@ social_links:
 - icon:         fa-linkedin
   name:         LinkedIn
   url:          https://www.linkedin.com/in/shakebameen/
-- icon:         fa-github
   name:         Github
   url:          https://github.com/starcruizer
 - icon:         fa-twitter
@@ -15,88 +14,90 @@ social_links:
 meta:
   email:        'me@shakebameen.com'
   phone:
-    - '(+91) 7033 622 361'
     - '(+886) 977 077 657'
 sections:
   - name:       Experience
     key:        experiences
-    info:       >
-      In addition to the mentioned experience, I have also been working on personal
-      projects like <a href="https://shakebameen.com" style="text-decoration: underline;"> technical blogs, web development</a>
-      and freelancing since 2016
+    
   - name:       Education
     key:        education
   - name:       'Awards &amp; Achievements'
     key:        awards
 experiences:
   - timeline:   June 2023 &mdash; Present
-    name:     '<a href="https://locusconnect.com/">Locus Connect Technologies Co. Ltd., <em>Taiwan</em></a>'
-    pos:      CEO &amp; Co-Founder
+    name:     '<a href="https://locus-sports.com/">Locus Sports, <em>Taiwan</em></a>'
+    pos:      CTO &amp; Co-Founder
     intro:    >
-      Co-founded Locus Connect Technologies to build a complete IoT solution prpviding indoor and outdoor locations tracking systems 
-      for smart factories, athelete performance tracking and asset management. 
+      Co-founded Locus Connect Technologies to build a complete IoT solution providing indoor and outdoor locations tracking systems 
+      for smart factories, athlete performance tracking and asset management. 
     keywords:
-      - Ultrawideband (UWB) Radio 
-      - Indoor Positioning
+      - UWB-IR
+      - AOA,TDMA-TWR,TDOA
+      - NRF5340
+      - Zephyr RTOS
 
   - timeline:   Sept 2021 &mdash; May 2023
-    name:     '<a href="https://nycu.edu.tw/">NYCU University <em>Taiwan</em></a>'
-    pos:      Research Engineer
+    name:     '<a href="https://nycu.edu.tw/">Fog Computing Assoc., <em>Taiwan</em></a>'
+    pos:      UWB and BLE Researcher
     intro:    >
-      Gained product building experience from the from Taiwan's top university academia, industry leaders and business experts from Sigfox ecosystem. Invented <em>eCap</em> - Smart Connected Wrokforce Tracker.
+      Gained product building experience from the from Taiwan's top university academia. Published <strong>4 international patents</strong> and thesis in the field of UWB and BLE based TDMA-TWR novel technique.
     keywords:
-      - UWB Radar Development
-      - LPWAN
-      - Team Management
-      - DeepTech
+      - UWB Radar 
+      - Murata 2AB
+      - Apache Mynewt
+      - Zephyr NRF5x
 
   - timeline:   Sep 2020 &mdash; Aug 2021
-    name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, <em>India</em></a>'
+    name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, KIIT <em>India</em></a>'
     pos:       Junior Research Fellow
     intro:     >
-      Worked on MQTT based novel approach for air quality monitoring and real time
-      weather analysis with alert facility for residents.
+      Worked remotely on MQTT based task allocation for embedded RTOS task scheduling and TinyML based predictive maintenance for industrial IoT devices.
     keywords:
       - Azure IoT
       - TinyML
       - MQTT
+      - STM32wb55
+      - TI CC2640
       
 education:
-   - timeline:  'Feb 2019 &mdash; June 2019'
-     name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a>'
+   - timeline:  'Feb 2021 &mdash; Aug 2023'
+     name:      '<a href="http://nycu.edu.tw/">NYCU University, Taiwan</a> (GPA 3.0/4.0)'
+     major:     'MS <em>in</em> Computer Science (Dropped out to pursue startup)'
+   - timeline:  'Feb 2019 &mdash; Aug 2019' 
+     name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a> (GPA 3.8/4.0)'
      major:     'Exchange Student <em>in</em> Semester Abroad Programme'
    - timeline:  '2016 &mdash; 2020'
-     name:      '<a href="https://kiit.ac.in">KIIT University, India (8.1/10)</a>'
+     name:      '<a href="https://kiit.ac.in">KIIT University, India (GPA 8.1/10)</a>'
      major:     'Bachelor of Technology <em>in</em> Information Technology'
 awards:
   - timeline:   June 2024
     name:       <a href="https://www.birac.nic.in/webcontent/1659441022_list_of_BIG20_Awardee.pdf" target='_blank'>BIRAC Award, India</a>
-    pos:        '5 Million INR Grant by Dept. of BioTech India'
+    pos:        'INR 5 Million Grant by Govt. of India'
     intro:      >
-      Awarded the <em>BIG20</em> grant by BIRAC, worth 5 Million Indian Rupee from Govt. of India for the development of <em>BoviSense</em> - Smart Connected Bovine Tracker 
-      that act as smartwatch for farm animals for mintoring their health parameters and location.
+      Awarded the prestigious <em>BIG20</em> grant by BIRAC, worth 5 Million Indian Rupee from Govt. of India for the development of 
+      smartwatch for farm animals for early detection of diseases.
   - timeline:   Jan 2020
-    name:       <a href="https://meet.bnext.com.tw/intl/articles/view/45980" target='_blank'>Sigfox Hacking House, Taipei</a>
+    name:       <a href="https://x.com/TheHackingHouse/status/1220701611774881793?s=20" target='_blank'>Sigfox Hacking House, Taipei</a>
     pos:        'Winner of Season 2 Cohort'
     intro:      >
-      Pitched a connected workforce device <em>eCap</em>, serving the connected devices market for costruction workers and safety managers.
+      Pitched a connected workforce prototype device <em>eCap</em>, serving the connected devices market for costruction workers and safety managers.
   - timeline:   Nov 2018
-    name:       <a href="https://www.hackerearth.com/challenges/hackathon/smart-odisha-hackathon/" target='_blank'>Smart Odisha Hackathon, Govt. of India</a>
+    name:       <a href="https://x.com/SamareshMishra/status/1063436258947489794?s=20" target='_blank'>Smart Odisha Hackathon, Govt. of India</a>
     pos:        'National Winner'
     intro:      >
       Won the National Prize in <em>Open Innovation challenge for smart technologies</em>, at the Smart Odisha
       Hackathon 2018 by Make in Odisha Conclave, Govt. of India.
   - timeline:   Oct 2018
-    name:       <a href="http://tatacrucible.com/hackathon/Mumbai_report.php" target='_blank'>TATA Crucible Corporate Hackathon</a>
+    name:       <a href="https://x.com/Tata_Crucible/status/1051759086931333120?s=20" target='_blank'>TATA Crucible Corporate Hackathon</a>
     pos:        Grand Prize Winner
     intro:      >
-      Developed a winning solution for the <em>Smart City Enabler challenge</em> - <em>CityX </em>a IoT platform for
-      the new age problems of Smart Cities using custom IoT gateway.
+      Developed a winning solution for the <em>Smart City Enabler challenge</em> - <em>CityX </em>a connected IoT platform for
+      the dynamic traffic counting using Multi-protocol radio.
   - timeline:   July 2018
     name:       <a href="https://innovate.mygov.in/sih2018-hardware/" target='_blank' >Smart India Hackathon Hardware Edition</a>
-    pos:        National Finalist
+    pos:        National Winner 
     intro:      >
-      Developed and pitched a <em>Smart Mesh</em> based Smart Communication for Flood Warning at World's
+      Developed and pitched a <em>Smart BLE 5.0 Mesh</em> based Smart Communication for flash Flood Warning and PA system at World's
       Biggest Open Innovation Movement in India.
   
 
@@ -115,45 +116,41 @@ personal_info:
   - name:       Email
     data:       <i class="fas fa-envelope"></i>&nbsp;<em><a href="mailto:me@shakebameen.com">me@shakebameen.com</a></em>
 skills:
-  - name:       <em><strong> Business Management &mdash;  </strong></em>
+  - name:       <em><strong> Leadership Skills &mdash;</strong></br></em>
     keywords:
-      - Team Management
-      - Product Management
-      - Business Development
+      - Team Management,
+      - Product Management,
       - Project Management
-      - Entrepreneurship
-  - name:       <em><strong> Systems Enginnering &mdash; </strong></em>
+      - Entrepreneurship 
+  - name:       <em><strong> Systems Engineering &mdash; </strong></em></br>
     keywords:
-      - IoT
-      - Embedded Systems
-      - Hardware Design
-      - PCB Design
-      - Firmware Development
-  - name:       <em><strong> Software Development &mdash; </strong></em>
+      - NordicSemi NRF5x Series
+      - NXP ARM Series
+      - ESP32 Series
+      - STM32 Series
+      - Raspberry Pi
+  - name:       <em><strong> Software Development &mdash; </strong></em></br>
     keywords:
       - Python
       - C
       - C++
    
-  - name:       <strong> <em> Radio Engineering &mdash;</em> </strong>
+  - name:       <strong> <em> RF Technologies &mdash;</em> </strong></br>
     keywords:
-      - UWB (Ultra Wideband)
-      - LPWAN (Low Power Wide Area Network)
+      - UWB (Ultra Wide-band)
+      - LPWAN (LoRaWAN, Sigfox)
       - LoRaWAN
       - Zigbee
-      - BLE (Bluetooth Low Energy)
-  - name:       <em> <strong> Data Science &mdash; </strong> </em>
-    keywords:
-      - Machine Learning
-      - Deep Learning
-      - Data Analysis
+      - BLE 5
+
 
 references:
+  - name:       <em>Mr Quayaum Quamar</em>
+    pos:        '<em>CEO</em>'
+    address:    'Verraxis, Halifax, Canada'
+    email:      <a href="mailto:qquamar@barringtonedge.com">qquamar@barringtonedge.com</a>
   - name:       <em>Mr Ching Yao-Huang</em>
-    pos:        '<em> Professor </em>'
+    pos:        '<em> Chair Professor </em>'
     address:    'NYCU, Taiwan'
     email:      <a href="mailto:cyhuang@nycu.edu.tw">cyhuang@nycu.edu.tw</a>
-  - name:       <em>Mr Quayaum Quamar</em>
-    pos:        '<em> Business Sales Manager</em>'
-    address:    'Barrington Edge, Nova Scotia, Canada'
-    email:      <a href="mailto:qquamar@barringtonedge.com">qquamar@barringtonedge.com</a>
+  

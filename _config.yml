@@ -20,8 +20,6 @@ url: "https://shakebameen.com" # the base hostname & protocol for your site, e.g
 twitter_username: shakebameen
 github_username:  starcruizer
 facebook_username: shakebameen
-instagram_username: shakebameen
-reddit_username: shakebameen
 
 # Build settings
 markdown: kramdown
