@@ -76,6 +76,11 @@ awards:
     intro:      >
       Awarded the prestigious <em>BIG20</em> grant by BIRAC, worth 5 Million Indian Rupee from Govt. of India for the development of 
       smartwatch for farm animals for early detection of diseases.
+  - timeline:   Jan 2022
+    name:       <a href="https://imaginecup.microsoft.com/en-us/Team/a02392d7-9918-4478-9feb-22b6e4c13f08" target='_blank'>Microsoft Imagine Cup, Global</a>
+    pos:        'World Finalist'
+    intro:      >
+      Developed a portable AI Toolkit BLE sensor for rapid dataset generation for students and underprivileged communities to learn and develop AI models for real-world applications.
   - timeline:   Jan 2020
     name:       <a href="https://x.com/TheHackingHouse/status/1220701611774881793?s=20" target='_blank'>Sigfox Hacking House, Taipei</a>
     pos:        'Winner of Season 2 Cohort'
@@ -93,12 +98,12 @@ awards:
     intro:      >
       Developed a winning solution for the <em>Smart City Enabler challenge</em> - <em>CityX </em>a connected IoT platform for
       the dynamic traffic counting using Multi-protocol radio.
-  - timeline:   July 2018
-    name:       <a href="https://innovate.mygov.in/sih2018-hardware/" target='_blank' >Smart India Hackathon Hardware Edition</a>
-    pos:        National Winner 
-    intro:      >
-      Developed and pitched a <em>Smart BLE 5.0 Mesh</em> based Smart Communication for flash Flood Warning and PA system at World's
-      Biggest Open Innovation Movement in India.
+  # - timeline:   July 2018
+  #   name:       <a href="https://innovate.mygov.in/sih2018-hardware/" target='_blank' >Smart India Hackathon Hardware Edition</a>
+  #   pos:        National Winner 
+  #   intro:      >
+  #     Developed and pitched a <em>Smart BLE 5.0 Mesh</em> based Smart Communication for flash Flood Warning and PA system at World's
+  #     Biggest Open Innovation Movement in India.
   
 
 personal:
