@@ -1,9 +1,9 @@
 ---
 title: Resume
-permalink: /resume/
+permalink: /resume_mgmt/
 ---
 
-{% assign resume = site.data.resume %}
+{% assign resume = site.data.resume_mgmt %}
 
 <!doctype html>
 <html>
@@ -13,16 +13,15 @@ permalink: /resume/
 
   <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/v4-shims.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,900|Lora:400,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,900|Lora:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/resume.css" | relative_url }}">
 
 </head>
 
 <body>
-  <!-- <div class="resumePicPlaceholder">
+  <div class="resumePicPlaceholder">
     <img class="resumePic" src="{{ "/assets/ProfilePic3.jpeg" | relative_url }}" alt="Profile Picture" style="border-radius: 50%; "/>
-  </div> -->
+  </div>
 
   <header>
     <a href="https://www.shakebameen.com">
@@ -37,49 +36,40 @@ permalink: /resume/
     {% for section in resume.sections %}
     <section>
       <h2>{{ section.name }}</h2>
-      <!-- <table class="value-table">
-        <tbody> -->
-      {% for experience in resume[section.key] %}
-      <!-- <tr>
+      <table class="value-table">
+        <tbody>
+          {% for experience in resume[section.key] %}
+          <tr>
             <td class="exp_time">{{ experience.timeline }}</td>
-            <td> -->
-      <div class="{% if experience.major %}education-entry{% else %}resume-entry{% endif %}">
-        <div class="exp_name">
-          {{ experience.name }}
-          <span class="exp_time">{{ experience.timeline }}</span>
-        </div>
-
-        {% if experience.pos %}
-        <div class="exp_position">{{ experience.pos }}</div>
-        {% elsif experience.major %}
-        <div class="major">{{ experience.major }}</div>
-        {% endif %}
-
-        <div class="exp_about">
-          {% if experience.intro %}
-          {{ experience.intro | smartify }}
-          {% endif %}
-
-          {% if experience.points %}
-          <ul>
-            {% for point in experience.points %}
-            <li>{{ point | smartify }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
-
-        <div class="exp_keywords">
-          {% for keyword in experience.keywords %}
-          <span class="keyword">{{ keyword }}</span>
-          {% endfor %}
-        </div>
-      </div>
-      <!-- </td>
+            <td>
+              <div class="exp_name">{{ experience.name }}</div>
+              {% if experience.pos %}
+              <div class="exp_position">{{ experience.pos }}</div>
+              {% elsif experience.major %}
+              <br />
+              <div class="major">
+                {{ experience.major }}
+              </div>
+              {% endif %}
+              <div class="exp_about">
+                <span>{{ experience.intro | smartify }}</span>
+                <ul>
+                  {% for point in experience.points %}
+                  <li>{{ point | smartify }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+              
+              <div class="exp_keywords">
+                {% for keyword in experience.keywords %}
+                <span class="keyword">{{ keyword }}</span>
+                {% endfor %}
+              </div>
+            </td>
           </tr>
-        </tbody> -->
-      {% endfor %}
-      <!-- </table> -->
+        </tbody>
+        {% endfor %}
+      </table>
       <div class="info">
         {{ section.info }}
       </div>
@@ -88,8 +78,7 @@ permalink: /resume/
   </div>
 
   <!-- skills region -->
-
-  <!-- <div class="gray_region">
+  <div class="gray_region">
     <br /><br /><br /><br />
     {% for section in resume.personal %}
     <section>
@@ -144,10 +133,9 @@ permalink: /resume/
       </table>
     </section>
     {% endfor %}
-  </div> -->
+  </div>
   <div class="downloadButton">
-    <a href="{{ " /assets/Resume.pdf" | relative_url }}"><i class="fa fa-file-download fa-3x" aria-hidden="true"
-        style></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{{ "/assets/Resume.pdf" | relative_url }}"><i class="fa fa-file-download fa-3x" aria-hidden="true" style></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
     <a onclick="window.print()"><i class="fa fa-print fa-3x" aria-hidden="true" style></i></a>
   </div>
 

@@ -1,4 +1,4 @@
-headline:       'Entrepreneur | Embedded System Specialist | Tech leader'
+headline:       'Inventor | Embedded System Specialist | IoT Enthusiast'
 social_links:
 - icon:         fa-globe
   name:         Website
@@ -16,17 +16,16 @@ meta:
   phone:
     - '(+886) 977 077 657'
 sections:
-  - name: Recent Experience
-    key: experiences
-
-  - name: 'selected Awards & Achievements'
-    key: awards
-
-  - name: Education
-    key: education
+  - name:       Experience
+    key:        experiences
+    
+  - name:       Education
+    key:        education
+  - name:       'Awards &amp; Achievements'
+    key:        awards
 experiences:
   - timeline:   June 2023 &mdash; Present
-    name:     '<a href="https://locus-sports.com/">Locus Connect Technologies Co. Ltd., Taiwan</a>'
+    name:     '<a href="https://locus-sports.com/">Locus Connect Technologies Co. Ltd., <em>Taiwan</em></a>'
     pos:      Sr. Systems Engineer & Co-Founder
     # intro:    >
     #   Co-founded Locus Connect Technologies to build a complete IoT solution providing indoor and outdoor locations tracking systems 
@@ -34,56 +33,58 @@ experiences:
     keywords:
       - UWB-IR
       - AOA,TDMA-TWR,TDOA
-      - NRF5340
+      - ARM M4, M33
+      - NRF5340, NPM1300
       - Zephyr RTOS
-      - LLM
-      - TinyML
-      - Rust Lang
     points:
       - Developed Firmware drivers for UWB (6-9Ghz) wearable tracking sensors for elite athletes and industrial trackers for shop floor.
-      - Developed AI coaching based on wearable data and biomechanics for performance improvement and injury prevention.
       - Collaborated with cross-functional teams of 5 engineers, from Taiwan and India to define, design, and ship new features in compliance with cybersecurity policy. 
+      - Developed ultra low power mode drivers for ARM M4, M33 to work with PMIC (NPM1300) and BLE 5.2 SoC (NRF5340) for wearable trackers.
       - Spearheaded end-to-end product delivery cycles, establishing sprint development, and up-keeping the team motivation and time-bound goal setting.
-      - Integrated RTLS with MES and ERP (SAP, Odoo) systems for smart factories using PLC drivers and API.
   - timeline:   Sept 2021 &mdash; May 2023
-    name:     '<a href="https://nycu.edu.tw/">Fog Computing Assoc., Taiwan</a>'
+    name:     '<a href="https://nycu.edu.tw/">Fog Computing Assoc., NYCU <em>Taiwan</em></a>'
     pos:      Firmware Engineer SWE-I
     # intro:    >
     #   Gained product building experience from the from Taiwan's top university academia. Published <strong>4 international patents</strong> and thesis in the field of UWB and BLE based TDMA-TWR novel technique.
     points:
-      - Led deep-tech R&D in wireless positioning at leading research institute, resulting in 4 international patents on novel UWB/BLE TDMA-TWR protocols
-      - Developed PHY/MAC layer frame synchronization algorithms at kernel driver level to mitigate multipath interference in noisy RF environments.
-      # - Led a team of 3 PhD and 2 Master's students in research and development.
+      - Developed low power RTLS system, resulting in <em>4 international patents</em> on novel TDMA-TWR protocols.
+      - Developed UWB drivers for AOSP (Android 13) for AoA location estimation and BLE 5.2 SoC (NRF5340) for wearable trackers.
       - Experienced in power/performance profiling tools, measurement setups, and empirical analysis.
-      - Special emphasis on low-level interrupts management, kernel modules, and driver development.
+      - Special emphasis on low-level interrupts management, PMIC, low modes kernel driver development to enable multi-year battery operation for UWB SoC.
     keywords:
-      - UWB Radar 
+      - Qorvo DWM3000
       - Murata 2AB
-      - Apache Mynewt
-      - Drivers
+      - AOSP 13.0
       - Linux Kernel
-      - NXP W72
-      - NXP SR150
+      - NXP W72, SR150/160
 
   - timeline:   Sep 2020 &mdash; Aug 2021
-    name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, KIIT India</a>'
+    name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, KIIT <em>India</em></a>'
     pos:       Junior Engineer
     # intro:     >
     points:
-      - Developed MQTT based task allocation for embedded RTOS task scheduling over Ethernet.
+      - Developed MQTT based task allocation for embedded RTOS task scheduling over Ethernet via Android Things.
       - Developed TinyML based Offline predictive maintenance models for compressors.
       - Deployed and validated the solutions in production environment
     keywords:
-      - Azure IoT
+      - Google IoT Core
       - Tensor Lite
       - MQTT
       - STM32wb55
       - TI CC2640
       - FreeRTOS
-      - Ethernet 
       - CAN
       
-
+education:
+   - timeline:  'Feb 2021 &mdash; Aug 2023'
+     name:      '<a href="http://nycu.edu.tw/">NYCU University, Taiwan</a> (GPA 3.4/4.0)'
+     major:     'MS <em>in</em> Computer Science (Dropped out to pursue startup)'
+   - timeline:  'Feb 2019 &mdash; Aug 2019' 
+     name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a> (GPA 3.8/4.0)'
+     major:     'Exchange Student <em>in</em> Semester Abroad Programme'
+   - timeline:  '2016 &mdash; 2020'
+     name:      '<a href="https://kiit.ac.in">KIIT University, India (GPA 8.1/10)</a>'
+     major:     'Bachelor of Technology <em>in</em> Information Technology'
 awards:
   - timeline:   Aug 2025
     name:       <a href="https://drive.google.com/file/d/1Za9eSjCVlztlUw7WKNpzWVSXZcxFAXrH/view?usp=sharing" target='_blank'>Falling Walls Lab, Deutsches Institut Taipei</a>
@@ -117,16 +118,6 @@ awards:
   #     Developed and pitched a <em>Smart BLE 5.0 Mesh</em> based Smart Communication for flash Flood Warning and PA system at World's
   #     Biggest Open Innovation Movement in India.
   
-education:
-   - timeline:  'Feb 2021 &mdash; Aug 2023'
-     name:      '<a href="http://nycu.edu.tw/">NYCU University, Taiwan</a> (GPA 3.0/4.0)'
-     major:     'MS <em>in</em> Computer Science (Dropped out to pursue startup)'
-   - timeline:  'Feb 2019 &mdash; Aug 2019' 
-     name:      '<a href="http://en.nhu.edu.tw/">Nanhua University, Taiwan</a> (GPA 3.8/4.0)'
-     major:     'Exchange Student <em>in</em> Semester Abroad Programme'
-   - timeline:  '2016 &mdash; 2020'
-     name:      '<a href="https://kiit.ac.in">KIIT University, India (GPA 8.1/10)</a>'
-     major:     'Bachelor of Technology <em>in</em> Information Technology'
 
 personal:
   - name:       'Personal Info'
@@ -151,24 +142,24 @@ skills:
       - Entrepreneurship
   - name:       <em><strong> Systems Engineering &mdash; </strong></em></br>
     keywords:
+      - Arm Cortex M4/M33/M0,
       - NRF5x Series,
       - NXP SR150/160 
       - STM32,
+      - Android Things
       - R-Pi,
       - NVIDIA Jetson,
-      - MODBUS,
-      - CAN
+      - MODBUS,CAN
   - name:       <em><strong> Software Development &mdash; </strong></em></br>
     keywords:
       - Python,
       - C,
       - C++,
-      - Driver Development,
-      - Rust Lang
+      - kernel drivers
    
   - name:       <strong> <em> RF Technologies &mdash;</em> </strong></br>
     keywords:
-      - UWB RF,
+      - UWB-IR, Radar RF,
       - LPWAN,
       - LoRaWAN,
       - Zigbee,
@@ -178,13 +169,7 @@ skills:
     keywords:
       - AWS,
       - Azure Cloud,
-      - Google Cloud
-
-  - name:       <strong> <em> AI/ML &mdash;</em></strong></br>
-    keywords:
-      - TinyML,
-      - LLMs,
-      - Agentic AI
+      - Google IoT Core
 
 
 references:

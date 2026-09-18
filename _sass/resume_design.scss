@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: 'Lora';
-  font-size: 10pt;
+  font-size: 9pt;
   text-rendering: geometricPrecision;
   height: 11in;
   width: 8.5in;
@@ -28,7 +28,7 @@ a {
 }
 
 header {
-  font-size: 12pt;
+  font-size: 10pt;
   background: black;
   color: white;
   padding: 4mm;
@@ -47,10 +47,13 @@ h6 {
   font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
+  padding-top: 8px;
+
 }
 
 section {
-  margin: 10px;
+  margin: auto 18px;
+  overflow: hidden;
 }
 
 .underline {
@@ -73,30 +76,33 @@ header h2 {
   font-family: 'Lora';
   font-style: italic;
   text-transform: none;
+ 
 }
 /* Profile photo region CSS */
 .resumePicPlaceholder {
   float: right;
-  padding-right: 195px;
+  padding-right: 175px;
+  
 }
 
 .resumePic {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   position: absolute;
   margin-top: 10px;
+  
 }
 /* White region CSS */
 .white_region {
   float: left;
-  width: 70%;
+  width: 100%;
   display: inline_block;
   height: 255.5mm;
 }
 
 .gray_region {
   float: left;
-  width: 30%;
+  width: 0%;
   height: 255.5mm;
   background-color: rgba(136, 132, 132, 0.31);
 }
@@ -114,41 +120,53 @@ footer {
 }
 
 .value-table td {
-  padding: 2px 2px 8px;
+  padding: 2px 2px 4px 0px;
 }
 
 .value-table td:nth-child(1) {
-  width: 112px;
+  width: 80px;
   text-align: right;
 }
 
 .exp_time {
   color: gray;
-  vertical-align: top;
+  padding-left: 2px;
+  // vertical-align: top;
 }
 
 .exp_name {
-  font-weight: 700;
   float: left;
+  width: 55%;
+  box-sizing: border-box;
+  font-weight: 700;
+  padding-top: 6px;
+  margin: auto 8px;
 }
 
 .exp_position {
   font-weight: 700;
   float: right;
+  padding-top: 6px;
+  margin-left: 12px;
 }
 
 .exp_about {
   clear: both;
+  margin-top: 4px;
+  margin: auto 8px;
 }
 
 .exp_keywords {
-  float: right;
-  
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 3px;
 }
 
 .keyword {
+  display: inline-block;
   font-family: 'PT Mono', monospace;
-  padding: 1px;
   font-size: smaller;
   border-radius: 4px;
   background-color: #ddd;
@@ -172,8 +190,14 @@ footer {
 }
 
 .major {
-  font-family: 'Lora';
+  float: right;
+  width: 45%;
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-left: 12px;
   color: gray;
+  text-align: left;
+  line-height: normal;
 }
 /* Gray region CSS */
 .gray-table td {
@@ -212,4 +236,42 @@ footer {
     overflow: hidden;
   }
 
+  @media print {
+    html,
+    body {
+      height: 11in;
+      width: 8.5in;
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow: hidden;
+      box-shadow: none;
+    }
+
+    .downloadButton {
+      display: none;
+    }
+  }
+}
+
+.education-entry {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-items: start;
+  margin: 0 8px 4px;
+}
+
+.education-entry .exp_name {
+  float: none;
+  width: auto;
+  padding-top: 6px;
+}
+
+.education-entry .major {
+  float: none;
+  width: auto;
+  padding: 6px 0 0 12px;
+  color: gray;
+  text-align: left;
+  line-height: normal;
+  
 }
