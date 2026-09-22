@@ -18,9 +18,8 @@ body {
 
 a {
   color: #378df6;
-  text-decoration: none;
   color: inherit !important;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 * {
@@ -139,8 +138,9 @@ footer {
   width: 55%;
   box-sizing: border-box;
   font-weight: 700;
-  padding-top: 6px;
+  padding-top: 4px;
   margin: auto 8px;
+  font-size: 10pt;
 }
 
 .exp_position {
@@ -148,12 +148,19 @@ footer {
   float: right;
   padding-top: 6px;
   margin-left: 12px;
+  font-size: 10pt;
 }
 
 .exp_about {
   clear: both;
   margin-top: 4px;
   margin: auto 8px;
+}
+
+.exp_about ul,
+.exp_about ol {
+  margin: 2px 0 4px 0;
+  padding-left: 28px;
 }
 
 .exp_keywords {
@@ -269,9 +276,10 @@ footer {
 .education-entry .major {
   float: none;
   width: auto;
-  padding: 6px 0 0 12px;
+  padding: 6px 0 0 10px;
   color: gray;
   text-align: left;
   line-height: normal;
   
 }
+

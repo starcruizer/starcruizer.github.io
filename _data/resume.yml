@@ -1,4 +1,4 @@
-headline:       'Entrepreneur | Embedded System Specialist | Tech leader'
+headline:       'Entrepreneur | Product Lead | Tech Lead'
 social_links:
 - icon:         fa-globe
   name:         Website
@@ -25,63 +25,66 @@ sections:
   - name: Education
     key: education
 experiences:
-  - timeline:   June 2023 &mdash; Present
+  - timeline: June 2023 &mdash; Present
     name:     '<a href="https://locus-sports.com/">Locus Connect Technologies Co. Ltd., Taiwan</a>'
-    pos:      Sr. Systems Engineer & Co-Founder
-    # intro:    >
-    #   Co-founded Locus Connect Technologies to build a complete IoT solution providing indoor and outdoor locations tracking systems 
-    #   for smart factories, athlete performance tracking and asset management. 
-    keywords:
-      - UWB-IR
-      - AOA,TDMA-TWR,TDOA
-      - NRF5340
-      - Zephyr RTOS
-      - LLM
-      - TinyML
-      - Rust Lang
+    pos:      Co-Founder & Technical Lead
+    intro:    >
+      Led the development and launch of a world-first 10cm high-accuracy indoor location 
+      tracking system (RTLS) for <a target="_blank" href="https://www.askey.com/press-center-detail/106/">Tier-1 smart factories (ASUS, ASKEY, TSMC)</a>, guiding a 5-person cross-functional team 
+      and partnering with <a target="_blank" href="https://www.technice.com.tw/issues/digitrans/156556/">C-suite and marketing stakeholders </a> to drive a <a target="_blank" href="https://innovex.computex.biz/show/exhibitor.aspx?companyId=4843&exhibitorID=1240">offline go-to-market strategy</a> that 
+      generated 100+ impressions and 9 industrial customer and <a target="_blank" href="https://www.sports.gov.tw/News_Content/309/23770#lg=1&slide=1">Taiwan Government award</a>.
+  # keywords:
+    #   - UWB-IR
+    #   - AOA,TDMA-TWR,TDOA
+    #   - NRF5340
+    #   - Zephyr RTOS
+    #   - LLM
+    #   - TinyML
+    #   - Rust Lang
     points:
-      - Developed Firmware drivers for UWB (6-9Ghz) wearable tracking sensors for elite athletes and industrial trackers for shop floor.
-      - Developed AI coaching based on wearable data and biomechanics for performance improvement and injury prevention.
-      - Collaborated with cross-functional teams of 5 engineers, from Taiwan and India to define, design, and ship new features in compliance with cybersecurity policy. 
-      - Spearheaded end-to-end product delivery cycles, establishing sprint development, and up-keeping the team motivation and time-bound goal setting.
-      - Integrated RTLS with MES and ERP (SAP, Odoo) systems for smart factories using PLC drivers and API.
+      - <em><strong>Product Planning</strong></em> - Distilled 50+ interviews and 500+ surveys into prioritized requirements, and designs for RTLS product.
+      - <em><strong>Product Development</strong></em> - I managed the end-to-end product development cycle, from ideation to production with a team of 5 engineers in Taiwan and Japan.
+      - <em><strong>Financial Planning</strong></em> - Successfully secured €200k close-door angel investment after 4 technology transfers worth €40k.
+      - <em><strong>Product Growth</strong></em> - I tripled the Annual revenue (ACV) from €40k to €130k in 12 Months by acquiring 3 new clients in SEA markets.
+      - <em><strong>Customer Success</strong></em> - Decreased 20% Man to machine collision incidents in smart factories by using our RTLS technology for worker safety and asset tracking. Decreased athlete injuries by 15% in sprints by using player trajectory analysis.
+      - <em><strong>Project Management and Agile Methodologies</strong></em> - I implemented Agile methodologies, including Scrum and Kanban, to improve team collaboration and productivity, resulting in a 30% increase in project delivery speed.
+      - <em><strong>Stakeholder Management and Communication</strong></em> - I effectively bridged relationships with various stakeholders, including multilingual C-suite executives, marketing teams, and external partners, to ensure alignment and successful project outcomes.
   - timeline:   Sept 2021 &mdash; May 2023
     name:     '<a href="https://nycu.edu.tw/">Fog Computing Assoc., Taiwan</a>'
-    pos:      Firmware Engineer SWE-I
-    # intro:    >
-    #   Gained product building experience from the from Taiwan's top university academia. Published <strong>4 international patents</strong> and thesis in the field of UWB and BLE based TDMA-TWR novel technique.
+    pos:      Independent Product Engineer
+    intro:    >
+      Led the development of fog computing systems for optimizing manufacturing industry shop floor operations, including real-time worker safety and asset tracking. Developed new IT and OT integration solutions for Pick to Light and Pick to Voice systems base don location aware intelligence.
     points:
-      - Led deep-tech R&D in wireless positioning at leading research institute, resulting in 4 international patents on novel UWB/BLE TDMA-TWR protocols
-      - Developed PHY/MAC layer frame synchronization algorithms at kernel driver level to mitigate multipath interference in noisy RF environments.
-      # - Led a team of 3 PhD and 2 Master's students in research and development.
-      - Experienced in power/performance profiling tools, measurement setups, and empirical analysis.
-      - Special emphasis on low-level interrupts management, kernel modules, and driver development.
-    keywords:
-      - UWB Radar 
-      - Murata 2AB
-      - Apache Mynewt
-      - Drivers
-      - Linux Kernel
-      - NXP W72
-      - NXP SR150
+      - <em><strong>Product Research and Development</strong></em> - Led deep-tech R&D in wireless positioning at leading research institute, resulting in <a target="_blank" href="https://patents.google.com/patent/US11856542B2/en">4 international patents (US/DE/JP/TW)</a> on novel UWB/BLE TDMA-TWR protocols generating €40k in technology transfer revenue.
+      - <em><strong>Team Leadership</strong></em> - Led a team of 3 PhD and 2 Master's students in research and development.
+      - <em><strong>Technical Expertise</strong></em> - Experienced in power/performance profiling tools, measurement setups, and empirical analysis.
+      - <em><strong>System Design</strong></em> - Special emphasis on low-level interrupts management, kernel modules, and driver development.
+    # keywords:
+    #   - UWB Radar 
+    #   - Murata 2AB
+    #   - Apache Mynewt
+    #   - Drivers
+    #   - Linux Kernel
+    #   - NXP W72
+    #   - NXP SR150
 
   - timeline:   Sep 2020 &mdash; Aug 2021
     name:      '<a href="https://kiit.ac.in/">Microsoft Azure Labs, KIIT India</a>'
-    pos:       Junior Engineer
+    pos:       IoT Team Lead
     # intro:     >
     points:
-      - Developed MQTT based task allocation for embedded RTOS task scheduling over Ethernet.
-      - Developed TinyML based Offline predictive maintenance models for compressors.
-      - Deployed and validated the solutions in production environment
-    keywords:
-      - Azure IoT
-      - Tensor Lite
-      - MQTT
-      - STM32wb55
-      - TI CC2640
-      - FreeRTOS
-      - Ethernet 
-      - CAN
+      - <em><strong>IoT Solution Development</strong></em> - Developed MQTT based task allocation for embedded RTOS task scheduling over Ethernet.
+      - <em><strong>Machine Learning Implementation</strong></em> - Developed TinyML based Offline predictive maintenance models for compressors.
+      - <em><strong>Production Deployment</strong></em> - Deployed and validated the solutions in production environment
+    # keywords:
+    #   - Azure IoT
+    #   - Tensor Lite
+    #   - MQTT
+    #   - STM32wb55
+    #   - TI CC2640
+    #   - FreeRTOS
+    #   - Ethernet 
+    #   - CAN
       
 
 awards:
